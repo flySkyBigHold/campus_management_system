@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.system.scf.cms.md.dao.SystemFunctionMapper">
+  <resultMap id="BaseResultMap" type="cn.system.scf.cms.md.model.SystemFunction">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="FUNCTION_ID" jdbcType="VARCHAR" property="functionId" />
+    <result column="PRODUCT_ID" jdbcType="VARCHAR" property="productId" />
+    <result column="MODEL_ID" jdbcType="VARCHAR" property="modelId" />
+    <result column="FUNCTION_NAME" jdbcType="VARCHAR" property="functionName" />
+    <result column="FUNCTION_CODE" jdbcType="VARCHAR" property="functionCode" />
+    <result column="FUNCTION_URI" jdbcType="VARCHAR" property="functionUri" />
+    <result column="FUNCTION_URL" jdbcType="VARCHAR" property="functionUrl" />
+    <result column="FUNCTION_DESCRIBE" jdbcType="VARCHAR" property="functionDescribe" />
+  </resultMap>
+</mapper>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="campus.management.system.md.dao.LoginUserMapper">
+  <resultMap id="BaseResultMap" type="campus.management.system.md.model.LoginUser">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="LOGIN_USER_ID" jdbcType="VARCHAR" property="loginUserId" />
+    <result column="ACCOUNT_NUMBER" jdbcType="VARCHAR" property="accountNumber" />
+    <result column="PASSWORD" jdbcType="VARCHAR" property="password" />
+    <result column="ASSOCIATOR_ID" jdbcType="VARCHAR" property="associatorId" />
+    <result column="USER_ID" jdbcType="VARCHAR" property="userId" />
+    <result column="LOGIN_DATE" jdbcType="TIMESTAMP" property="loginDate" />
+    <result column="LOGIN_TYPE" jdbcType="CHAR" property="loginType" />
+  </resultMap>
+</mapper>

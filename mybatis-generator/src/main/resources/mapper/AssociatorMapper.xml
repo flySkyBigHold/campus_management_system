@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="campus.management.system.md.dao.AssociatorMapper">
+  <resultMap id="BaseResultMap" type="campus.management.system.md.model.Associator">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ASSOCIATOR_ID" jdbcType="VARCHAR" property="associatorId" />
+    <result column="ASSOCIATOR_CODE" jdbcType="VARCHAR" property="associatorCode" />
+    <result column="ASSOCIATOR_NAME" jdbcType="VARCHAR" property="associatorName" />
+    <result column="LINKMAN" jdbcType="VARCHAR" property="linkman" />
+    <result column="LINKMAN_PHONE" jdbcType="VARCHAR" property="linkmanPhone" />
+    <result column="LINKMAN_ADDRESS" jdbcType="VARCHAR" property="linkmanAddress" />
+    <result column="DISABLED_STATUS" jdbcType="CHAR" property="disabledStatus" />
+  </resultMap>
+</mapper>
