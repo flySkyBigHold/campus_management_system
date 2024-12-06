@@ -1,9 +1,0 @@
-insert into t_md_system_model (MODEL_ID, PRODUCT_ID, MODEL_LEVEL, PARENT_MODEL_ID, MODEL_CODE, MODEL_NAME, MODEL_URI, MODEL_URL, MODEL_DESCRIBE)
-values ('CM07000000000000000000001', 'CMS001', '0', null, 'MD01', '系统模块', 'cms.md', '/cms/md', '系统模块');
-
-insert into t_md_system_model (MODEL_ID, PRODUCT_ID, MODEL_LEVEL, PARENT_MODEL_ID, MODEL_CODE, MODEL_NAME, MODEL_URI, MODEL_URL, MODEL_DESCRIBE)
-values ('CM07000000000000000000002', 'CMS001', '1', 'CM07000000000000000000001', 'MD0101', '用户登录', 'cms.md.login', '/cms/md/login', '系统登录模块');
-
-insert into t_md_system_model (MODEL_ID, PRODUCT_ID, MODEL_LEVEL, PARENT_MODEL_ID, MODEL_CODE, MODEL_NAME, MODEL_URI, MODEL_URL, MODEL_DESCRIBE)
-values ('CM07000000000000000000003', 'CMS001', '1', 'CM07000000000000000000001', 'MD0102', '用户注册', 'cms.md.loginUser', '/cms/md/loginUser', '用户注册模块');
-

@@ -1,2 +1,0 @@
-insert into t_md_role (ROLE_ID, ROLE_CODE, ROLE_NAME, REMARK, BOOK_ASSOCIATOR_ID, BOOK_USER_ID, BOOK_DATE, DISABLED_STATUS)
-values ('CM03000000000000000000001', '01', '管理员', '默认', null, null, null, '0');
